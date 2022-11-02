@@ -1,0 +1,183 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj",
+        "projectName": "Sat.Recruitment.Api",
+        "projectPath": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj",
+        "packagesPath": "/Users/ivanbarcia/.nuget/packages/",
+        "outputPath": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ivanbarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://eventellect.pkgs.visualstudio.com/Atlas/_packaging/Software/nuget/v3/index.json": {},
+          "https://eventellect.pkgs.visualstudio.com/Evie/_packaging/Evie-Nuget/nuget/v3/index.json": {},
+          "https://eventellect.pkgs.visualstudio.com/Evie/_packaging/Evie-Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[3.1.30, 3.1.30]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj",
+        "projectName": "Sat.Recruitment.Test",
+        "projectPath": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Test/Sat.Recruitment.Test.csproj",
+        "packagesPath": "/Users/ivanbarcia/.nuget/packages/",
+        "outputPath": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/ivanbarcia/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://eventellect.pkgs.visualstudio.com/Atlas/_packaging/Software/nuget/v3/index.json": {},
+          "https://eventellect.pkgs.visualstudio.com/Evie/_packaging/Evie-Nuget/nuget/v3/index.json": {},
+          "https://eventellect.pkgs.visualstudio.com/Evie/_packaging/Evie-Nuget/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj": {
+                "projectPath": "/Users/ivanbarcia/Repositories/Mine/Celerative/Paramo/paramo-challenge/Sat.Recruitment.Api/Sat.Recruitment.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
